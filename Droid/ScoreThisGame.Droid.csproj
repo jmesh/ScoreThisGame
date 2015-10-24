@@ -78,6 +78,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\layout\MainActivity.axml" />
   </ItemGroup>
   <Import Project="..\ScoreThisGame\ScoreThisGame.projitems" Label="Shared" Condition="Exists('..\ScoreThisGame\ScoreThisGame.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />

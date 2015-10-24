@@ -9,6 +9,12 @@
     <Import_RootNamespace>ScoreThisGame</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DartsGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dart.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ScoreThisGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)_01_GameType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
   </ItemGroup>
 </Project>
