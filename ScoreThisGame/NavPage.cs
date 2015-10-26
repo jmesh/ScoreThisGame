@@ -4,9 +4,9 @@ using Xamarin.Forms;
 
 namespace ScoreThisGame
 {
-	public class _01_GameType : ContentPage
+	public class NavPage : ContentPage
 	{
-		public _01_GameType ()
+		public NavPage ()
 		{
 			Content = new StackLayout { 
 				Children = {

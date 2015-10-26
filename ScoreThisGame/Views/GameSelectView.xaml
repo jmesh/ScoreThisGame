@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MainPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ScoreThisGame.GameSelectView">
+	<MainPage.Content>
+	<Picker x:Name="GamePicker" HorizontalOptions="FillAndExpand">
+        <Picker.Items>
+           <x:String>Cricket</x:String> 
+            <x:String>501</x:String>
+               <x:String>401</x:String> 
+            <x:String>301</x:String>
+        </Picker.Items>
+	</Picker>
+	</MainPage.Content>
+</MainPage>

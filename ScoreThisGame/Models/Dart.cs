@@ -4,14 +4,8 @@ namespace ScoreThisGame
 {
 	public class Dart
 	{
-		private int dartNumber; 
-		private int numberHit;
-
-		public Dart (int id, int value)
-		{
-			this.dartNumber = id; 
-			this.numberHit = value;
-		}
+		public int dartNumber { get; set; }
+		public int numberHit { get; set; }
 	}
 }
 

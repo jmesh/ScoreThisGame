@@ -12,9 +12,18 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\DartsGame.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Dart.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ScoreThisGame.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)_01_GameType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\GameSelect.xaml.cs">
+      <DependentUpon>GameSelectView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\GameSelectView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
