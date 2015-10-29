@@ -1,0 +1,14 @@
+﻿My thinking:
+
+1) A game will always have 2 teams
+2) Mark.cs is is to store the board values: 
+		new Mark{MarkDisplay = "T20", MarkValue=60, weight=3}, 
+		new Mark {MarkDisplay = "D20", MarkValue=40, weight=2},
+		new Mark {MarkDisplay = "S20", MarkValue=20, weight=1}, etc...
+
+		We will need to create a factory to generate these for each game
+3) For starters probably start with the 01 games.
+4) For rules see:  http://www.dartswdf.com/basicsofdarts/
+5) ........
+
+

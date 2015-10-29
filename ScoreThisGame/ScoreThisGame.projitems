@@ -15,6 +15,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\GameSelect.xaml.cs">
       <DependentUpon>GameSelectView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Mark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
@@ -25,5 +27,8 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\GameSelectView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Notes.txt" />
   </ItemGroup>
 </Project>
